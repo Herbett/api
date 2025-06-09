@@ -1,0 +1,19 @@
+{
+    "name": "giova/api",
+    "autoload": {
+        "psr-4": {
+            "Giova\\Api\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Paulo Tavares",
+            "email": "giovannapaulo80@gmail.com"
+        }
+    ],
+    "require": {
+        "slim/slim": "^4.0",
+        "slim/psr7": "^1.7",
+        "php-di/php-di": "^7.0"
+    }
+}
